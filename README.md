@@ -16,7 +16,7 @@ netstat -aon | findstr :8088
 
 docker run -d -p 8088:80 --name welcome-to-docker docker/welcome-to-docker
 
-![Запуск контейнера](terminal-run.png)
+![Запуск контейнера](./imag/terminal_run.png)
 
 
 
@@ -24,7 +24,7 @@ docker run -d -p 8088:80 --name welcome-to-docker docker/welcome-to-docker
 
 Открыл http://localhost:8088:
 
-![Проверка в браузере](img1.png)
+![Проверка в браузере](./imag/img1.png)
 
 
 4. Работа в контейнере
@@ -33,14 +33,14 @@ docker run -d -p 8088:80 --name welcome-to-docker docker/welcome-to-docker
 
 uname -a
 
-![Работа в контейнере](cmd_uname.png)
+![Работа в контейнере](./imag/cmd_uname.png)
 
 
 Мониторинг процессов
 
 top
 
-![Мониторинг процессов](cmd_top.png)
+![Мониторинг процессов](./imag/cmd_top.png)
 
 
 
@@ -50,7 +50,7 @@ apk update && apk upgrade
 apk add fastfetch
 fastfetch
 
-![Установка fastfetch](cmd_fastfetch.png)
+![Установка fastfetch](./imag/cmd_fastfetch.png)
 
 📝 Выводы
 ✅ Успешно выполнен запуск Docker-контейнера
