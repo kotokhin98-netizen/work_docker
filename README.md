@@ -16,14 +16,15 @@ netstat -aon | findstr :8088
 
 docker run -d -p 8088:80 --name welcome-to-docker docker/welcome-to-docker
 
-![Запуск контейнера](../imag/terminal-run.png)
+![Запуск контейнера](./photos/terminal-run.png)
+
 
 
 3. Проверка в браузере
 
 Открыл http://localhost:8088:
 
-![Проверка в браузере](../imag/browser-congrats.png)
+![Проверка в браузере](./photos/img1.png)
 
 
 4. Работа в контейнере
@@ -32,14 +33,14 @@ docker run -d -p 8088:80 --name welcome-to-docker docker/welcome-to-docker
 
 uname -a
 
-![Работа в контейнере](../imag/cmd-uname.png)
+![Работа в контейнере](/photos/cmd-uname.png)
 
 
 Мониторинг процессов
 
 top
 
-![Мониторинг процессов](../imag/cmd-top.png)
+![Мониторинг процессов](/photos/cmd-top.png)
 
 
 
@@ -49,9 +50,15 @@ apk update && apk upgrade
 apk add fastfetch
 fastfetch
 
-![Установка fastfetch](../imag/cmd-fastfetch.png)
+![Установка fastfetch](/photos/cmd-fastfetch.png)
 
 📝 Выводы
 ✅ Успешно выполнен запуск Docker-контейнера
 ✅ Освоена работа с Alpine Linux
 ✅ Установлен fastfetch
+
+![Запуск контейнера](photos/terminal-run.png)
+![Проверка в браузере](photos/img1.png)
+![Работа в контейнере](photos/cmd-uname.png)
+![Мониторинг процессов](photos/cmd-top.png)
+![Установка fastfetch](photos/cmd-fastfetch.png)
