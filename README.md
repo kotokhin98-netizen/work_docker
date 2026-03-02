@@ -33,7 +33,7 @@ docker run -d -p 8088:80 --name welcome-to-docker docker/welcome-to-docker
 
 uname -a
 
-##![Работа в контейнере](cmd_uname.png)
+![Работа в контейнере](cmd_uname.png)
 
 
 Мониторинг процессов
