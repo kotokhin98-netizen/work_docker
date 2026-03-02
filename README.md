@@ -33,14 +33,14 @@ docker run -d -p 8088:80 --name welcome-to-docker docker/welcome-to-docker
 
 uname -a
 
-![Работа в контейнере](cmd-uname.png)
+![Работа в контейнере](cmd_uname.png)
 
 
 Мониторинг процессов
 
 top
 
-![Мониторинг процессов](cmd-top.png)
+![Мониторинг процессов](cmd_top.png)
 
 
 
@@ -50,7 +50,7 @@ apk update && apk upgrade
 apk add fastfetch
 fastfetch
 
-![Установка fastfetch](cmd-fastfetch.png)
+![Установка fastfetch](cmd_fastfetch.png)
 
 📝 Выводы
 ✅ Успешно выполнен запуск Docker-контейнера
